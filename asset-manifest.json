@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/danicameroo/webcode.git/static/css/main.b0c86e29.css",
+    "main.js": "/danicameroo/webcode.git/static/js/main.0bf2ebfd.js",
+    "static/js/787.902af078.chunk.js": "/danicameroo/webcode.git/static/js/787.902af078.chunk.js",
+    "static/media/empezar.png": "/danicameroo/webcode.git/static/media/empezar.949f83109c9b46f17b1d.png",
+    "static/media/phoneStart.png": "/danicameroo/webcode.git/static/media/phoneStart.42f10cfcd45f915c1e75.png",
+    "static/media/logo.png": "/danicameroo/webcode.git/static/media/logo.0c0b879a17f26696a5fb.png",
+    "static/media/ingresoBenefits.svg": "/danicameroo/webcode.git/static/media/ingresoBenefits.f6c9b1c591652d853f405ec06e7e0608.svg",
+    "static/media/lupaBenefits.svg": "/danicameroo/webcode.git/static/media/lupaBenefits.1ad6088da1c8a2b56a4909bf349be86f.svg",
+    "index.html": "/danicameroo/webcode.git/index.html",
+    "static/media/escudoBenefits.svg": "/danicameroo/webcode.git/static/media/escudoBenefits.f6fa1c7251cdc2c2a018e135e2c12779.svg",
+    "static/media/check.svg": "/danicameroo/webcode.git/static/media/check.d382e46a863ce2027d69f338b769798e.svg",
+    "main.b0c86e29.css.map": "/danicameroo/webcode.git/static/css/main.b0c86e29.css.map",
+    "main.0bf2ebfd.js.map": "/danicameroo/webcode.git/static/js/main.0bf2ebfd.js.map",
+    "787.902af078.chunk.js.map": "/danicameroo/webcode.git/static/js/787.902af078.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0c86e29.css",
+    "static/js/main.0bf2ebfd.js"
+  ]
+}
