@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/webcode/static/css/main.b0c86e29.css",
+    "main.css": "/webcode/static/css/main.7f827d1b.css",
     "main.js": "/webcode/static/js/main.b5dd7b6c.js",
     "static/js/787.902af078.chunk.js": "/webcode/static/js/787.902af078.chunk.js",
     "static/media/empezar.png": "/webcode/static/media/empezar.949f83109c9b46f17b1d.png",
@@ -11,12 +11,12 @@
     "static/media/escudoBenefits.svg": "/webcode/static/media/escudoBenefits.f6fa1c7251cdc2c2a018e135e2c12779.svg",
     "index.html": "/webcode/index.html",
     "static/media/check.svg": "/webcode/static/media/check.d382e46a863ce2027d69f338b769798e.svg",
-    "main.b0c86e29.css.map": "/webcode/static/css/main.b0c86e29.css.map",
+    "main.7f827d1b.css.map": "/webcode/static/css/main.7f827d1b.css.map",
     "main.b5dd7b6c.js.map": "/webcode/static/js/main.b5dd7b6c.js.map",
     "787.902af078.chunk.js.map": "/webcode/static/js/787.902af078.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0c86e29.css",
+    "static/css/main.7f827d1b.css",
     "static/js/main.b5dd7b6c.js"
   ]
 }
