@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+/*DESKTOP*/
+@media (min-width: 2000px) and (max-width: 2600px) {
+    .textContainerForm{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .titleForm{
+        margin: auto;
+        color: white;
+        font-family: 'Paytone One', sans-serif;
+        font-size: 70px;
+        width: 900px;
+        margin-bottom: 20px;
+        margin-top: 0;
+        letter-spacing: 15%;
+    }
+    .buttonContainerForm{
+        display:  flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 150px;
+    }
+    .buttonForm{
+        width: 280px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background-color: #491565;
+        transition: background-color 0.5s;
+        color: white;
+        font-size: 20px;
+        font-family: 'Paytone One', sans-serif;
+        border: none;
+        cursor: pointer;
+    }
+    .buttonForm:hover{
+        background-color: white;
+        color: #491565;
+    }
+    .containerForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        width: 50%;
+        margin: auto;
+        padding: 50px;
+    }
+    .inputForm{
+        border: none;
+        height: 30px;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    .containerFlexForm{
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        gap: 4%;
+        margin-bottom: 30px;
+    }
+    .inputFormDesc{
+        width: 48%;
+        border: none;
+        border-radius: 15px;
+        height: 240px;
+    }
+    .containerBoxForm{
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .inputFormtwo{
+        border: none;
+        border-radius: 10px;
+        height: 67px;
+    }
+    .selectForm{
+        border: none;
+        border-radius: 10px;
+        height: 67px;
+    }
+    .buttonFormEnviar{
+        width: 280px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background-color: #491565;
+        transition: background-color 0.5s;
+        color: white;
+        font-size: 20px;
+        font-family: 'Paytone One', sans-serif;
+        border: none;
+        cursor: pointer;
+        margin: auto;
+    }
+    .buttonFormEnviar:hover{
+        background-color: white;
+        color: #491565;
+    }
+    .toast-container{
+        position: fixed;
+    }
+}
+
+/*LAPTOP*/
+@media (min-width: 1440px) and (max-width: 1999px) {
+    .textContainerForm{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .titleForm{
+        margin: auto;
+        color: white;
+        font-family: 'Paytone One', sans-serif;
+        font-size: 70px;
+        width: 900px;
+        margin-bottom: 20px;
+        margin-top: 0;
+        letter-spacing: 15%;
+    }
+    .buttonContainerForm{
+        display:  flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 150px;
+    }
+    .buttonForm{
+        width: 280px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background-color: #491565;
+        transition: background-color 0.5s;
+        color: white;
+        font-size: 20px;
+        font-family: 'Paytone One', sans-serif;
+        border: none;
+        cursor: pointer;
+    }
+    .buttonForm:hover{
+        background-color: white;
+        color: #491565;
+    }
+    .containerForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        width: 40%;
+        margin: auto;
+        padding: 50px;
+    }
+    .inputForm{
+        border: none;
+        height: 20px;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    .containerFlexForm{
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        gap: 4%;
+        margin-bottom: 30px;
+    }
+    .inputFormDesc{
+        width: 48%;
+        border: none;
+        border-radius: 15px;
+        height: 200px;
+    }
+    .containerBoxForm{
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .inputFormtwo{
+        border: none;
+        border-radius: 10px;
+        height: 56px;
+    }
+    .selectForm{
+        border: none;
+        border-radius: 10px;
+        height: 56px;
+    }
+    .buttonFormEnviar{
+        width: 280px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background-color: #491565;
+        transition: background-color 0.5s;
+        color: white;
+        font-size: 20px;
+        font-family: 'Paytone One', sans-serif;
+        border: none;
+        cursor: pointer;
+        margin: auto;
+    }
+    .buttonFormEnviar:hover{
+        background-color: white;
+        color: #491565;
+    }
+    .toast-container{
+        position: fixed;
+    }
+}
+
+/*TABLET*/
+@media (min-width: 750px) and (max-width: 1439px) {
+    .textContainerForm{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .titleForm{
+        margin: auto;
+        color: white;
+        font-family: 'Paytone One', sans-serif;
+        font-size: 50px;
+        width: 700px;
+        margin-bottom: 20px;
+        margin-top: 0;
+        letter-spacing: 15%;
+    }
+    .buttonContainerForm{
+        display:  flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 100px;
+    }
+    .buttonForm{
+        width: 230px;
+        height: 45px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background-color: #491565;
+        transition: background-color 0.5s;
+        color: white;
+        font-size: 17px;
+        font-family: 'Paytone One', sans-serif;
+        border: none;
+        cursor: pointer;
+    }
+    .buttonForm:hover{
+        background-color: white;
+        color: #491565;
+    }
+    .containerForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        width: 60%;
+        margin: 30px auto 20px auto;
+        padding: 50px;
+    }
+    .inputForm{
+        border: none;
+        height: 15px;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    .containerFlexForm{
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        gap: 4%;
+        margin-bottom: 30px;
+    }
+    .inputFormDesc{
+        width: 48%;
+        border: none;
+        border-radius: 15px;
+        height: 182px;
+    }
+    .containerBoxForm{
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .inputFormtwo{
+        border: none;
+        border-radius: 10px;
+        height: 50px;
+    }
+    .selectForm{
+        border: none;
+        border-radius: 10px;
+        height: 50px;
+    }
+    .buttonFormEnviar{
+        width: 230px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background-color: #491565;
+        transition: background-color 0.5s;
+        color: white;
+        font-size: 20px;
+        font-family: 'Paytone One', sans-serif;
+        border: none;
+        cursor: pointer;
+        margin: auto;
+    }
+    .buttonFormEnviar:hover{
+        background-color: white;
+        color: #491565;
+    }
+    .toast-container{
+        position: fixed;
+    }
+}
+
+/*PHONE*/
+@media (min-width: 300px) and (max-width: 500px) {
+    .textContainerForm{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .titleForm{
+        margin: auto;
+        color: white;
+        font-family: 'Paytone One', sans-serif;
+        font-size: 30px;
+        width: 300px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        letter-spacing: 15%;
+    }
+    .buttonContainerForm{
+        display:  flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+    }
+    .buttonForm{
+        width: 100px;
+        height: 30px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background-color: #491565;
+        transition: background-color 0.5s;
+        color: white;
+        font-size: 10px;
+        font-family: 'Paytone One', sans-serif;
+        border: none;
+        cursor: pointer;
+    }
+    .buttonForm:hover{
+        background-color: white;
+        color: #491565;
+    }
+    .containerForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        width: 80%;
+        margin: 30px auto 20px auto;
+        padding: 10px;
+    }
+    .inputForm{
+        border: none;
+        height: 10px;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    .containerFlexForm{
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        gap: 4%;
+        margin-bottom: 10px;
+    }
+    .inputFormDesc{
+        width: 48%;
+        border: none;
+        border-radius: 15px;
+        height: 142px;
+    }
+    .containerBoxForm{
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .inputFormtwo{
+        border: none;
+        border-radius: 10px;
+        height: 40px;
+    }
+    .selectForm{
+        border: none;
+        border-radius: 10px;
+        height: 40px;
+    }
+    .buttonFormEnviar{
+        width: 120px;
+        height: 30px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background-color: #491565;
+        transition: background-color 0.5s;
+        color: white;
+        font-size: 10px;
+        font-family: 'Paytone One', sans-serif;
+        border: none;
+        cursor: pointer;
+        margin: auto;
+    }
+    .buttonFormEnviar:hover{
+        background-color: white;
+        color: #491565;
+    }
+    .toast-container{
+        position: fixed;
+    }
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+/*DESKTOP*/
+@media (min-width: 2000px) and (max-width: 2600px) {
+    .containerAllBenefits{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+        margin-top: 80px;
+        transform: scale(50%);
+        transition: transform 2s ease-in-out;
+    }
+    .containerBenefits{
+        width: 426px;
+        height: 473px;
+        border-radius: 15px;
+        background: #D7BFE4;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .titleBenefits{
+        color: black;
+        width: 351px;
+        height: 80px;
+        font-size: 36px;
+        font-family: 'Paytone One', sans-serif;
+        text-align: center;
+        margin: auto;
+    }
+    .textBenefits{
+        width: 351px;
+        height: 80px;
+        font-size: 28px;
+        font-family: 'Oxygen', sans-serif;
+        text-align: center;
+        margin: auto;
+    }
+    .imgBenefit{
+        width: 183px;
+        height: 180px;
+        display: flex;
+        margin: auto;
+    }
+    .containerAllBenefits.active {
+        transform: scale(100%);
+    }
+}
+
+/*LAPTOP*/
+@media (min-width: 1500px) and (max-width: 1999px) {
+    .containerAllBenefits{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+        margin-top: 80px;
+        transform: scale(50%);
+        transition: transform 2s ease-in-out;
+    }
+    .containerBenefits{
+        width: 326px;
+        height: 373px;
+        border-radius: 15px;
+        background: #D7BFE4;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .titleBenefits{
+        color: black;
+        width: 251px;
+        height: 80px;
+        font-size: 26px;
+        font-family: 'Paytone One', sans-serif;
+        text-align: center;
+        margin: auto;
+    }
+    .textBenefits{
+        width: 251px;
+        height: 80px;
+        font-size: 18px;
+        font-family: 'Oxygen', sans-serif;
+        text-align: center;
+        margin: auto;
+    }
+    .imgBenefit{
+        width: 143px;
+        height: 140px;
+        display: flex;
+        margin: auto;
+    }
+    .containerAllBenefits.active {
+        transform: scale(100%);
+    }
+}
+
+/*TABLET*/
+@media (min-width: 750px) and (max-width: 1439px) {
+    .containerAllBenefits{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+        margin-top: 80px;
+        transform: scale(50%);
+        transition: transform 2s ease-in-out;
+    }
+    .containerBenefits{
+        width: 206px;
+        height: 253px;
+        border-radius: 15px;
+        background: #D7BFE4;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .titleBenefits{
+        color: black;
+        width: 151px;
+        height: 60px;
+        font-size: 16px;
+        font-family: 'Paytone One', sans-serif;
+        text-align: center;
+        margin: auto;
+    }
+    .textBenefits{
+        width: 151px;
+        height: 60px;
+        font-size: 13px;
+        font-family: 'Oxygen', sans-serif;
+        text-align: center;
+        margin: auto;
+    }
+    .imgBenefit{
+        width: 90px;
+        height: 90px;
+        display: flex;
+        margin: auto;
+    }
+    .containerAllBenefits.active {
+        transform: scale(100%);
+    }
+}
+
+/*PHONE*/
+@media (min-width: 300px) and (max-width: 500px) {
+    .containerAllBenefits{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5%;
+        margin-top: 10px;
+        transform: scale(50%);
+        transition: transform 2s ease-in-out;
+    }
+    .containerBenefits{
+        width: 100px;
+        height: 113px;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 15px;
+        background: #D7BFE4;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .titleBenefits{
+        color: black;
+        width: 100px;
+        height: 60px;
+        font-size: 11px;
+        font-family: 'Paytone One', sans-serif;
+        text-align: center;
+        margin: auto;
+    }
+    .textBenefits{
+        width: 100px;
+        height: 60px;
+        font-size: 10px;
+        font-family: 'Oxygen', sans-serif;
+        text-align: center;
+        margin: auto;
+    }
+    .imgBenefit{
+        width: 60px;
+        height: 60px;
+        display: flex;
+        margin: auto;
+    }
+    .containerAllBenefits.active {
+        transform: scale(100%);
+    }
+}

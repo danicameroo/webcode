@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+/*DESKTOP*/
+@media (min-width: 2000px) and (max-width: 2600px) {
+    .titleCaract{
+        font-family: 'Paytone One', sans-serif;
+        color: white;
+        font-size: 74px;
+        text-align: center;
+    }
+    .conteinerListCaract{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 1432px;
+        height: 383px;
+        margin: auto;
+        justify-content: space-evenly;
+        opacity: 0;
+    }
+    .listCaract{
+        display: flex;
+        flex-direction: row;
+        width: 640px;
+        
+    }
+    .conteinerListCaract.active{
+        transition: opacity 2.5s;
+        opacity: 1;
+    }
+    .imgCheck{
+        width: 62px;
+        height: 62px;
+        margin-right: 10px;
+    }
+    .textCaract{
+        color: white;
+        font-size: 55px;
+        font-family: 'Oxygen', sans-serif;
+        margin: 0;
+    }
+}
+
+/*LAPTOP*/
+@media (min-width: 1440px) and (max-width: 1999px) {
+    .titleCaract{
+        font-family: 'Paytone One', sans-serif;
+        color: white;
+        font-size: 54px;
+        text-align: center;
+    }
+    .conteinerListCaract{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 1132px;
+        height: 283px;
+        margin: auto;
+        justify-content: space-evenly;
+        opacity: 0;
+    }
+    .listCaract{
+        display: flex;
+        flex-direction: row;
+        width: 480px;
+        
+    }
+    .conteinerListCaract.active{
+        transition: opacity 2.5s;
+        opacity: 1;
+    }
+    .imgCheck{
+        width: 52px;
+        height: 52px;
+        margin-right: 10px;
+    }
+    .textCaract{
+        color: white;
+        font-size: 35px;
+        font-family: 'Oxygen', sans-serif;
+        margin: 0;
+    }
+}
+
+/*TABLET*/
+@media (min-width: 750px) and (max-width: 1439px) {
+    .titleCaract{
+        font-family: 'Paytone One', sans-serif;
+        color: white;
+        font-size: 44px;
+        text-align: center;
+    }
+    .conteinerListCaract{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 732px;
+        height: 183px;
+        margin: auto;
+        justify-content: space-evenly;
+        opacity: 0;
+    }
+    .listCaract{
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        
+    }
+    .conteinerListCaract.active{
+        transition: opacity 2.5s;
+        opacity: 1;
+    }
+    .imgCheck{
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+    }
+    .textCaract{
+        color: white;
+        font-size: 25px;
+        font-family: 'Oxygen', sans-serif;
+        margin: 0;
+    }
+}
+
+/*PHONE*/
+@media (min-width: 300px) and (max-width: 500px) {
+    .titleCaract{
+        font-family: 'Paytone One', sans-serif;
+        color: white;
+        font-size: 24px;
+        text-align: center;
+    }
+    .conteinerListCaract{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 280px;
+        height: 90px;
+        margin: auto;
+        justify-content: space-evenly;
+        opacity: 0;
+    }
+    .listCaract{
+        display: flex;
+        flex-direction: row;
+        width: 140px;
+        
+    }
+    .conteinerListCaract.active{
+        transition: opacity 2.5s;
+        opacity: 1;
+    }
+    .imgCheck{
+        width: 12px;
+        height: 12px;
+        margin-right: 10px;
+    }
+    .textCaract{
+        color: white;
+        font-size: 10px;
+        font-family: 'Oxygen', sans-serif;
+        margin: 0;
+    }
+}

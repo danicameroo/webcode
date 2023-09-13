@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+/*DESKTOP*/
+@media (min-width: 2000px) and (max-width: 2600px) {
+    .MenuNav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5%;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        padding-bottom: 20px;
+    }
+    .imgNav{
+        width: 180px;
+        height: auto;
+    }
+    .categoriesNav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 3em;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .linkNav{
+        text-decoration: none;
+        color: black;
+    }
+    .listaNav{
+        color: hwb(0 100% 0%);
+        font-size: 28px;
+        font-weight: 400;
+        font-family: 'Paytone One', sans-serif;
+    }
+}
+
+/*LAPTOP*/
+@media (min-width: 1440px) and (max-width: 1999px) {
+    .MenuNav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5%;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        padding-bottom: 20px;
+    }
+    .imgNav{
+        width: 180px;
+        height: auto;
+    }
+    .categoriesNav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 3em;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .linkNav{
+        text-decoration: none;
+        color: black;
+    }
+    .listaNav{
+        color: hwb(0 100% 0%);
+        font-size: 28px;
+        font-weight: 400;
+        font-family: 'Paytone One', sans-serif;
+    }
+}
+
+/*TABLET*/
+@media (min-width: 750px) and (max-width: 1439px) {
+    .MenuNav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2%;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .imgNav{
+        width: 80px;
+        height: auto;
+    }
+    .categoriesNav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 1em;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .linkNav{
+        text-decoration: none;
+        color: black;
+    }
+    .listaNav{
+        color: hwb(0 100% 0%);
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Paytone One', sans-serif;
+    }
+}
+
+/*PHONE*/
+@media (min-width: 300px) and (max-width: 500px) {
+    .MenuNav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 1px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .imgNav{
+        width: 40px;
+        height: auto;
+    }
+    .categoriesNav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        list-style: none;
+        gap: 7px;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .linkNav{
+        text-decoration: none;
+        color: black;
+    }
+    .listaNav{
+        color: hwb(0 100% 0%);
+        font-size: 8px;
+        font-weight: 400;
+        font-family: 'Paytone One', sans-serif;
+    }
+}

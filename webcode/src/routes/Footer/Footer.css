@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+/*DESKTOP*/
+@media (min-width: 2000px) and (max-width: 2600px) {
+    .Footer{
+        width: 100%;
+        height: 350px;
+        flex-shrink: 0;
+        background: #000000;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 132px;
+        align-items: center;
+        position: relative;
+    }
+    .Footer::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 1400px;
+        height: 5px;
+        background-color: #491565;
+    }
+    .textMapFooter{
+        width: 350px;
+        height: auto;
+    }
+    .textTextMapFooter{
+        color: white;
+        font-family: 'Oxygen', sans-serif;
+        font-size: 28px;
+    }
+}
+
+/*LAPTOP*/
+@media (min-width: 1440px) and (max-width: 1999px) {
+    .Footer{
+        width: 100%;
+        height: 350px;
+        flex-shrink: 0;
+        background: #000000;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 132px;
+        align-items: center;
+        position: relative;
+    }
+    .Footer::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 1400px;
+        height: 5px;
+        background-color: #491565;
+    }
+    .textMapFooter{
+        width: 350px;
+        height: auto;
+    }
+    .textTextMapFooter{
+        color: white;
+        font-family: 'Oxygen', sans-serif;
+        font-size: 28px;
+    }
+}
+
+/*TABLET*/
+@media (min-width: 750px) and (max-width: 1439px) {
+    .Footer{
+        width: 100%;
+        height: 250px;
+        flex-shrink: 0;
+        background: #000000;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0px;
+        align-items: center;
+        position: relative;
+    }
+    .Footer::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 80%;
+        height: 5px;
+        background-color: #491565;
+    }
+    .textMapFooter{
+        width: 200px;
+        height: auto;
+    }
+    .textTextMapFooter{
+        color: white;
+        font-family: 'Oxygen', sans-serif;
+        font-size: 18px;
+    }
+}
+
+/*PHONE*/
+@media (min-width: 300px) and (max-width: 500px) {
+    .Footer{
+        width: 100%;
+        height: 140px;
+        flex-shrink: 0;
+        background: #000000;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0px;
+        align-items: center;
+        position: relative;
+    }
+    .Footer::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 80%;
+        height: 3px;
+        background-color: #491565;
+    }
+    .textMapFooter{
+        width: 100px;
+        height: auto;
+    }
+    .textTextMapFooter{
+        color: white;
+        font-family: 'Oxygen', sans-serif;
+        font-size: 9px;
+    }
+}
