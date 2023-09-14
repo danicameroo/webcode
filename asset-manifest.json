@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/webcode/static/css/main.dca5d59d.css",
-    "main.js": "/webcode/static/js/main.b5dd7b6c.js",
+    "main.css": "/webcode/static/css/main.d2291776.css",
+    "main.js": "/webcode/static/js/main.869eccf2.js",
     "static/js/787.902af078.chunk.js": "/webcode/static/js/787.902af078.chunk.js",
     "static/media/empezar.png": "/webcode/static/media/empezar.949f83109c9b46f17b1d.png",
     "static/media/phoneStart.png": "/webcode/static/media/phoneStart.42f10cfcd45f915c1e75.png",
     "static/media/logo.png": "/webcode/static/media/logo.0c0b879a17f26696a5fb.png",
+    "static/media/ig.svg": "/webcode/static/media/ig.129eb5cf7a23f8d6675ea463c0664ebf.svg",
     "static/media/ingresoBenefits.svg": "/webcode/static/media/ingresoBenefits.f6c9b1c591652d853f405ec06e7e0608.svg",
     "static/media/lupaBenefits.svg": "/webcode/static/media/lupaBenefits.1ad6088da1c8a2b56a4909bf349be86f.svg",
+    "static/media/call.svg": "/webcode/static/media/call.df07462b9b58503b7d3534d79b443cff.svg",
     "static/media/escudoBenefits.svg": "/webcode/static/media/escudoBenefits.f6fa1c7251cdc2c2a018e135e2c12779.svg",
     "index.html": "/webcode/index.html",
     "static/media/check.svg": "/webcode/static/media/check.d382e46a863ce2027d69f338b769798e.svg",
-    "main.dca5d59d.css.map": "/webcode/static/css/main.dca5d59d.css.map",
-    "main.b5dd7b6c.js.map": "/webcode/static/js/main.b5dd7b6c.js.map",
+    "static/media/email.svg": "/webcode/static/media/email.afcaaa3c0811a9c95382c5bee72d2566.svg",
+    "static/media/Ellipse 2.svg": "/webcode/static/media/Ellipse 2.8daea42168395d97fc35.svg",
+    "static/media/Ellipse2_1.svg": "/webcode/static/media/Ellipse2_1.6153aa19beecdfd61e61.svg",
+    "main.d2291776.css.map": "/webcode/static/css/main.d2291776.css.map",
+    "main.869eccf2.js.map": "/webcode/static/js/main.869eccf2.js.map",
     "787.902af078.chunk.js.map": "/webcode/static/js/787.902af078.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dca5d59d.css",
-    "static/js/main.b5dd7b6c.js"
+    "static/css/main.d2291776.css",
+    "static/js/main.869eccf2.js"
   ]
 }
