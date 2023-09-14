@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webcode/static/css/main.d2291776.css",
-    "main.js": "/webcode/static/js/main.869eccf2.js",
+    "main.css": "/webcode/static/css/main.47d1c465.css",
+    "main.js": "/webcode/static/js/main.2e82485d.js",
     "static/js/787.902af078.chunk.js": "/webcode/static/js/787.902af078.chunk.js",
     "static/media/empezar.png": "/webcode/static/media/empezar.949f83109c9b46f17b1d.png",
     "static/media/phoneStart.png": "/webcode/static/media/phoneStart.42f10cfcd45f915c1e75.png",
@@ -16,12 +16,12 @@
     "static/media/email.svg": "/webcode/static/media/email.afcaaa3c0811a9c95382c5bee72d2566.svg",
     "static/media/Ellipse 2.svg": "/webcode/static/media/Ellipse 2.8daea42168395d97fc35.svg",
     "static/media/Ellipse2_1.svg": "/webcode/static/media/Ellipse2_1.6153aa19beecdfd61e61.svg",
-    "main.d2291776.css.map": "/webcode/static/css/main.d2291776.css.map",
-    "main.869eccf2.js.map": "/webcode/static/js/main.869eccf2.js.map",
+    "main.47d1c465.css.map": "/webcode/static/css/main.47d1c465.css.map",
+    "main.2e82485d.js.map": "/webcode/static/js/main.2e82485d.js.map",
     "787.902af078.chunk.js.map": "/webcode/static/js/787.902af078.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2291776.css",
-    "static/js/main.869eccf2.js"
+    "static/css/main.47d1c465.css",
+    "static/js/main.2e82485d.js"
   ]
 }
